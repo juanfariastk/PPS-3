@@ -1,0 +1,29 @@
+@startuml
+interface Component {
+  + operation(): String
+}
+
+class ConcreteComponent implements Component {
+  + operation(): String
+}
+
+class Decorator implements Component {
+  - component: Component
+  + Decorator(component: Component)
+  + operation(): String
+}
+
+class ConcreteDecoratorA extends Decorator {
+  + operation(): String
+}
+
+class ConcreteDecoratorB extends Decorator {
+  + operation(): String
+}
+
+Component <|.. ConcreteComponent
+Component <|.. Decorator
+Decorator <|-- ConcreteDecoratorA
+Decorator <|-- ConcreteDecoratorB
+Decorator o-- Component
+@enduml

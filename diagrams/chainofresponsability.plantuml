@@ -1,0 +1,29 @@
+@startuml
+interface Handler {
+    + setNext(handler: Handler): Handler
+    + handle(request: String): void
+}
+
+abstract class AbstractHandler implements Handler {
+    - nextHandler: Handler
+    + setNext(handler: Handler): Handler
+    + handle(request: String): void
+}
+
+class ConcreteHandlerA extends AbstractHandler {
+    + handle(request: String): void
+}
+
+class ConcreteHandlerB extends AbstractHandler {
+    + handle(request: String): void
+}
+
+class Client {
+    + clientCode(handler: Handler): void
+}
+
+Handler <|.. AbstractHandler
+AbstractHandler <|-- ConcreteHandlerA
+AbstractHandler <|-- ConcreteHandlerB
+Client o-- Handler
+@enduml
