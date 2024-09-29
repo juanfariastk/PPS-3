@@ -4,7 +4,6 @@ Este repositório contém exemplos de alguns dos principais padrões de projeto,
 
 ## Índice sobre os padrões neste repositório
 
-- [Design Patterns - Singleton, Chain of Responsibility, Prototype, Visitor, Decorator](#design-patterns---singleton-chain-of-responsibility-prototype-visitor-decorator)
   - [Índice sobre os padrões neste repositório](#índice-sobre-os-padrões-neste-repositório)
   - [Padrão Singleton](#padrão-singleton)
     - [Problema Singleton](#problema-singleton)
