@@ -4,7 +4,6 @@ Este repositório contém exemplos de alguns dos principais padrões de projeto,
 
 ## Índice sobre os padrões neste repositório
 
-  - [Índice sobre os padrões neste repositório](#índice-sobre-os-padrões-neste-repositório)
   - [Padrão Singleton](#padrão-singleton)
     - [Problema Singleton](#problema-singleton)
     - [Solução Singleton](#solução-singleton)
