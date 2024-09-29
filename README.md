@@ -1,4 +1,4 @@
-# Design Patterns - Singleton, Chain of Responsibility, Prototype, Visitor, Decorator
+# Padrões de Projeto de Software - PPS
 
 Este repositório contém exemplos de alguns dos principais padrões de projeto, segundo o que pude entender e exemplificar. Serve de resumo para a 3º Prova de PPS.
 
